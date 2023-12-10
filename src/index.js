@@ -17,4 +17,6 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
+
+// export宣言で変数dbを別のファイルでもimport宣言で使えるようにする
 export const db = getDatabase(app);
